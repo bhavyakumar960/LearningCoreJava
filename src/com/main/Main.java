@@ -1,38 +1,88 @@
 package com.main;
 
 public class Main {
-	 
+
 	public static void main(String[] args) {
+
+		boolean b = true;
+		int x = 100;
+		int y = 10;
+
+		// if-else
+//		if (true)
+//			System.out.println("Hello");
+//
+//		System.out.println("Hii");
+
+//		// switch-case
+//		switch (x) {
+//		default:
+//			System.out.println("Hello");
+//		case 0:
+//			System.out.println("0");
+//		case 5:
+//			System.out.println("5");
+//		case 10:
+//			System.out.println("10");
+//		
+//		}
+
+//		 
+//		  int a = 10; int bb = 20;
+//		 //while loop
+//		 while (a < bb); {
+//				System.out.println("Hello");
+//			}
+//			 System.out.println("Hii");
+//		 
+//		 
+
+//		  int a = 10; final int bb = 20;
+//		do 
+//			while(a<bb)
+//				System.out.println("HEllo");
+//		while(a < bb);
+//		System.out.println("Hii");
+
+		// for
+		int i = 0 ;int j =10;
+		boolean hu = false;
+		for (System.out.println("JJ"); i < j ; System.out.println("JJIII")) {
+			System.out.println("Hii");
+			i++;
+		}
+
 		
-		int a = 11; int b = 22; int c;
-		
-		c  = a + b + a++ + b++ + ++a + ++b;
+//		for( ; ; );
 		
 		
+		//for-each
 		
+		int[] ar = {1, 2, 3, 4, 5, 6};
 		
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
-		
-		a = 11; b = 22; c = 0;
-		
-		 c = a--;
-		 System.out.println(c);
-		 System.out.println(a);
+		for(int a : ar) {
+			System.out.println(a);
+		}
 	}
-	
+
 }
 
 /*
- * Increment
+ * if(boolean){ //return } boolean b = false
  * 
- *  Pre - ++a
- *  Post - a++
+ * if(b = true){ sout("Hello"); }else{ sout("Hii"); }
  * 
  * 
- * Decrement 
- * Pre - --a
- * Post - a--
+ * switch (x) { default: System.out.println("Hello"); case 0:
+ * System.out.println("0"); case 5: System.out.println("5"); case 10:
+ * System.out.println("10");
  * 
- * */
+ * }
+ * 
+ * 
+ * 
+ * while(true) { SOUT("Hello"); } sout(Hii);
+ * 
+ * 
+ * { sout() }
+ */
