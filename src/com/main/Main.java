@@ -1,17 +1,23 @@
 package com.main;
 
 public class Main {
-	
-	static {
-		System.out.println("static-block");
-	}
-
-	
+	 
 	public static void main(String[] args) {
-		System.out.println("Happy guys!!");
+		System.out.println("Hello World");
+		throw new RuntimeException("kjhg");
 	}
 	
 }
+
+/*
+ * 							OOPS based on PIE
+ * P - Polymorphism
+ * I - Inheritance
+ * E - encapsulation
+ * A - Abstraction 
+ * 
+ * */
+
 
 /*
  * IDETIFIERS name given to any java program. a to z, A to Z, 0-9, $, _
