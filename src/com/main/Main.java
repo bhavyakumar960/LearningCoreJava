@@ -1,6 +1,8 @@
 package com.main;
 
-public class Main {
+import com.exx.A;
+
+public class Main extends A{
 
 	public static void main(String[] args) {
 
@@ -45,12 +47,12 @@ public class Main {
 //		System.out.println("Hii");
 
 		// for
-		int i = 0 ;int j =10;
-		boolean hu = false;
-		for (System.out.println("JJ"); i < j ; System.out.println("JJIII")) {
-			System.out.println("Hii");
-			i++;
-		}
+//		int i = 0 ;int j =10;
+//		boolean hu = false;
+//		for (System.out.println("JJ"); i < j ; System.out.println("JJIII")) {
+//			System.out.println("Hii");
+//			i++;
+//		}
 
 		
 //		for( ; ; );
@@ -58,13 +60,37 @@ public class Main {
 		
 		//for-each
 		
-		int[] ar = {1, 2, 3, 4, 5, 6};
+//		int[] ar = {1, 2, 3, 4, 5, 6};
+//		
+//		for(int a : ar) {
+//			System.out.println(a);
+//		}
 		
-		for(int a : ar) {
-			System.out.println(a);
-		}
+//		int[] xx = new int[5];
+//		
+//		for(int a : xx)
+//			System.out.println(a);
+//		
+//		
+//		System.out.println(xx.length);
+//		
+//	
+	
+		getSum(1, 2, 3, 4, 8);
+	
+		
 	}
-
+	
+	public static void getSum(int...a) {
+		
+		int sum = 0;
+		
+		for(int ar : a) {
+			sum += ar;
+		}
+		System.out.println(sum);
+	}
+	
 }
 
 /*
@@ -84,5 +110,5 @@ public class Main {
  * while(true) { SOUT("Hello"); } sout(Hii);
  * 
  * 
- * { sout() }
+ * 
  */
