@@ -1,9 +1,8 @@
 package com.main;
 
-import com.exx.A;
+public class Main{
 
-public class Main extends A{
-
+	
 	public static void main(String[] args) {
 
 		boolean b = true;
@@ -76,20 +75,12 @@ public class Main extends A{
 //		
 //	
 	
-		getSum(1, 2, 3, 4, 8);
+		System.out.println("Main class main method running" + Thread.currentThread().getClass());
 	
 		
 	}
 	
-	public static void getSum(int...a) {
-		
-		int sum = 0;
-		
-		for(int ar : a) {
-			sum += ar;
-		}
-		System.out.println(sum);
-	}
+	
 	
 }
 
